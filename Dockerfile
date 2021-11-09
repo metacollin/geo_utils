@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:16
 
 RUN npm install -g geobuf && \
     npm install -g git+https://github.com/andrewharvey/geojson-polygon-labels.git && \
